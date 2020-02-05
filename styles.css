@@ -1,0 +1,48 @@
+h1{
+    text-align:center;
+    color:MistyRose;
+    background-color: RosyBrown;
+    font-size: 40px;
+     display:block;
+     width: 1300px;
+     margin: 60px;
+     font-family: fantasy;
+     padding: 5px 10px 10px 10px;
+     border: 20px;
+     margin: initial;
+    }
+    body {
+      background-color:LavenderBlush;
+      display: block;
+      margin: 25px;
+    }
+    
+    nav{
+     text-align: center;
+     display: line;
+    margin: initial;
+    background-color: rosybrown;
+    
+      color: rgb(167, 65, 96);}
+     
+      
+    p {
+      color:Teal;
+    }
+    footer{
+      margin: 50px;
+      color: RosyBrown;
+     
+    }
+    footer span{ color: red;}
+    main article p span{color: Red;
+   }
+
+   li {color: white;
+    width: 1200px;
+    padding: unset;
+    margin: 10px;
+}
+ img {
+   margin: 20px;
+ }
