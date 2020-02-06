@@ -8,9 +8,7 @@ function good (){
     var person = prompt("are you studing here?(yes/no)");
    
     }
-    var okay =prompt("are you studing here?(yes/no)");
-    console.log(okay);
-    var result="";
+    
     
 if (person !=null) { 
  result='so '  
