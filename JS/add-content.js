@@ -2,22 +2,24 @@ alert ("Hello!")
 
 confirm ("do you like my work?")
 
-function greeting(){
-    var age  =prompt("how old are you?");
-    var greeting
-    if (age < 20) {
-        greeting ='hello young!'
+function good (){
+    var person = prompt("are you studing here?(yes/no)");
+    while(person.toLocaleLowerCase() !=='yes' && person !=='no'){
+    var person = prompt("are you studing here?(yes/no)");
+   
     }
-    if (    age>21 && age <50){
-        greeting ='hello youth'
-    }
-    if (age > 51) {
-        greeting ='hello eldery'
-    }
+    var okay =prompt("are you studing here?(yes/no)");
+    console.log(okay);
+    var result="";
     
-    console.log (greeting);
-    
-    return greeting;
+if (person !=null) { 
+ result='so '  
+ return result;
 }
-greeting();
-document.write('<h3>'+greeting() + '<h3>')
+}
+document.write('<h3>' +good()+ '<h3>' );
+
+
+
+
+
