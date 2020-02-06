@@ -14,8 +14,14 @@ if (person !=null) {
  result='so '  
  return result;
 }
-}
+
 document.write('<h3>' +good()+ '<h3>' );
+
+}
+
+
+
+
 
 
 
